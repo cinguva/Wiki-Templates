@@ -1,0 +1,6 @@
+<ac:structured-macro ac:macro-id="30e54256-4adb-45aa-95a4-93e75bb445d4" ac:name="section" ac:schema-version="1"><ac:rich-text-body>
+<p>The following table shows all Git Repositories that are configured from devops folder to integrate with JIRA to show commits information.</p>
+<p><em><strong>For any changes to the below repositories please add a comment to this page so we can correct it.</strong></em></p></ac:rich-text-body></ac:structured-macro><ac:structured-macro ac:macro-id="456b65f6-8c62-435c-a389-4dc1579c0afe" ac:name="tip" ac:schema-version="1"><ac:parameter ac:name="title">Request for New Repositories</ac:parameter><ac:rich-text-body>
+<p>To add new devops Gitlab Repositories into JIRA, please submit a JIRA Project Change request following instructions specified in <ac:link><ri:content-entity ri:content-id="85917767" /></ac:link></p></ac:rich-text-body></ac:structured-macro>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
