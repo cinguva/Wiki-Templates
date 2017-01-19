@@ -1,0 +1,16 @@
+## Developed by: Davin Studer
+## Date created: 04/30/2014
+ 
+## @param Tip:title=Tool Tip|type=string|required=true|desc=What will be displayed when the cursor hovers over this area?
+ 
+#set( $id = $action.dateFormatter.calendar.timeInMillis )
+#set( $d = '$' )
+#set( $p = '#' )
+#requireResource("com.atlassian.auiplugin:aui-experimental-tooltips")
+ 
+<span id="content$id" title="$paramTip">$body</span>
+<script type="text/javascript">
+AJS.toInit(function(){
+    AJS.${d}("${p}content$id").tooltip({gravity: 's'});
+});
+</script>
